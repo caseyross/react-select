@@ -1716,7 +1716,6 @@ var Select = _react2['default'].createClass({
 				'aria-readonly': '' + !!this.props.disabled,
 				style: { border: 0, width: 1, display: 'inline-block' } }));
 		}
-		console.log(inputProps);
 
 		if (this.props.autosize) {
 			return _react2['default'].createElement(_reactInputAutosize2['default'], _extends({}, inputProps, { minWidth: '5' }));
