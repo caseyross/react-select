@@ -846,7 +846,7 @@ const Select = React.createClass({
 			className: className,
 			tabIndex: this.props.tabIndex,
 			onBlur: this.handleInputBlur,
-			onChange: this.handleInputChange,
+			onInput: this.handleInputChange,
 			onFocus: this.handleInputFocus,
 			ref: ref => this.input = ref,
 			required: this.state.required,
