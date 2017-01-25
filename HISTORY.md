@@ -1,5 +1,13 @@
 # React-Select
 
+## v2.0.1 / 2017-01-23
+
+* fixed; Remove extra logging statement
+
+## v2.0.0 / 2017-01-23
+
+* fixed; Map `onInputChange` to `onInput` rather than `onChange` in rendered input to work around [React issue 7027](https://github.com/facebook/react/issues/7027)
+
 ## v1.0.0-rc / 2016-09-04
 
 * fixed; reset value to `[]` when `multi=true`, thanks [Michael Williamson](https://github.com/mwilliamson)
