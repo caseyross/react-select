@@ -9,7 +9,6 @@ React-Select
 
 A Select control built with and for [React](http://facebook.github.io/react/index.html). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
 
-
 ## New version 1.0.0-rc
 
 I've nearly completed a major rewrite of this component (see issue [#568](https://github.com/JedWatson/react-select/issues/568) for details and progress). The new code has been merged into `master`, and `react-select@1.0.0-rc` has been published to npm and bower.
@@ -62,6 +61,12 @@ You can also use the standalone build by including `react-select.js` and `react-
 
 <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
 ```
+
+
+## Building from source
+
+1. Clone the repo
+2. `npm run build`
 
 
 ## Usage
